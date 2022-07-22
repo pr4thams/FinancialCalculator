@@ -1,0 +1,34 @@
+body {
+    background-color:white;
+    border-radius: 25px;
+    border: 2px solid gray;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+h1{
+    color:gray;
+    font-size: 30px;
+    font: Arial;
+}
+form{
+    width: 300px;
+    height: 100px;
+    
+}
+.details{
+    display: inline-block;
+    text-align: left;
+}
+.alignLeft{
+    font-size: 10px;
+    text-align: left;
+}
+.output{
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+

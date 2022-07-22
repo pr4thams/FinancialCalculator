@@ -1,1 +1,1 @@
-# FinancialCalculator
+# coding-project-template
