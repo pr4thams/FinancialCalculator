@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Web App – Simple Interest Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="hideDiv()">
+    <h1>Simple Interest Calculator</h1>
+<form id="input" class="details">
+    
+    <label>Amount: <input type="number" id="principal"></label> <br />
+    <label>Interest Rate: </label> <input type="range" min="1.00" max="20.00" step="0.25" value="1" class="slider" id="rate"
+        onchange="showVal(this.value)">
+    <label><span id="demo"></span>%</span></label><br>
+    <label>No. of Years: </label>
+    <select name="years" id="years">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+    </select><br>
+  
+</form>
+
+    
+
+    <span id="result"></span><br>
+
+    <button onclick="compute()" style="text-align: left;">Compute Interest</button><br><br>
+    <div id = "summary" class="output">
+    <label>If you deposit <span id="prin" style="background-color: yellow;"></span></span></label><br>
+    <label>at an interest rate of <span id="rat" style="background-color: yellow;"></span></span>%,</label><br>
+    <label>You will receive an interest amount of <span id="interest" style="background-color: yellow ;"></span></span>,</label><br>
+    <label>in the year <span id="year" style="background-color: yellow;"></span></span></label><br><br>
+    </div>
+    
+    <div id="copyright" class="alignLeft">
+        <label>&copy Everyone can get rich</label><br>
+        <label>This Calculator belongs to Pratham</label>
+    </div>
+
+</body>
+
+</html>
